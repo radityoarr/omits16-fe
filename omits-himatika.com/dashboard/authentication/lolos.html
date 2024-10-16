@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from omits-himatika.com/dashboard/authentication/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Sep 2023 14:24:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Result | OMITS 16th</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="../../public/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../public/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../public/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../public/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../public/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../public/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../public/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../public/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../public/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../public/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../public/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../public/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../public/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../manifest.html">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../../public/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="../../../unpkg.com/sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&amp;display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body{
+    font-family: 'Maven Pro', sans-serif !important;
+  }
+</style>
+<style>
+  .bg-custom {
+    background-image: url(../assets/img/bg-mission.webp) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+
+
+  .link-custom:hover {
+    font-weight: bold !important;
+    color: rgb(0, 81, 255) !important;
+  }
+</style>
+
+<body class="bg-custom login-page">
+
+  <div>
+    <!-- /.login-logo -->
+    <div class="card card-outline card-primary">
+      <div class="card-header text-center">
+        <!-- <a href="../../index2.html" class="h1"><b>Admin</b>LTE</a> -->
+        <img src="../assets/img/logoomits16.webp" style="width: 240px !important;" alt="">
+      </div>
+      <div class="card-body">
+        <div class="bg-success">
+        <p class="text-bold text-white text-center">SELAMAT! ANDA DINYATAKAN LOLOS KE SEMIFINAL</p>
+       </div>
+
+      <div>
+        <div class="mb-2">
+          <label for="nama-ketua" class="form-label">Nama Ketua</label>
+          <input type="text" class="form-control" id="nama-ketua" placeholder="Nama Ketua">
+        </div>
+
+        <div class="mb-2">
+          <label for="nama-anggota" class="form-label">Nama Anggota</label>
+          <input type="text" class="form-control" id="nama-anggota" placeholder="Nama Anggota">
+        </div>
+
+       <div class="row">
+          <div class="col mb-2">
+            <label for="no-peserta" class="form-label">No Peserta</label>
+            <input type="text" class="form-control" id="no-peserta" placeholder="No Peserta">
+         </div>
+        <div class="col mb-2">
+          <label for="kompetisi" class="form-label">Kompetisi</label>
+          <input type="text" class="form-control" id="kompetisi" placeholder="Kompetisi">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mb-2">
+          <label for="provinsi" class="form-label">Provinsi</label>
+          <input type="text" class="form-control" id="provinsi" placeholder="Provinsi">
+        </div>
+        <div class="col mb-2">
+          <label for="kota-kab" class="form-label">Kota/Kabupaten</label>
+          <input type="text" class="form-control" id="kota-kab" placeholder="Kota?Kabupaten">
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="asal-sekolah" class="form-label">Asal Sekolah</label>
+        <input type="text" class="form-control" id="asal-sekolah" placeholder="Asal Sekolah">
+      </div>
+    </div>
+
+    <div class="bg-info text-center text-md px-2">
+      <p class="text-white">Peserta dimohon bergabung dengan grup yang telah tersedia untuk informasi lebih lanjut.</p>
+     </div>
+
+
+        <div class="text-center">
+          <a href="../../index-2.html" class="link-custom text-center" style="color: black; text-align:center !important"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg> Kembali ke Halaman Utama</a>
+          </div>
+
+      </div>
+      <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+  </div>
+
+<style>
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            cursor: pointer;
+        }
+
+        .chat-icon-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #007bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-icon-line {
+            width: 24px;
+            height: 2px;
+            margin-bottom: 4px;
+            background-color: #fff;
+        }
+
+        .char-icon {
+            background: #222
+        }
+
+        .whatsapp-ico {
+            fill: white;
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            background-color: #4dc247;
+            border-radius: 50%;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .whatsapp-ico:hover {
+            box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+
+    <div class="chat-icon">
+
+        <a href="https://api.whatsapp.com/send/?phone=6282331423008&amp;text=Halo+kak+saya+ingin+bertanya+terkait+OMITS&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 32 32" class="whatsapp-ico">
+                <path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path>
+            </svg>
+        </a>
+
+
+    </div>
+
+  <!-- jQuery -->
+  <script src="../../plugins/jquery/jquery.min.html"></script>
+  <!-- Bootstrap 4 -->
+  <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.html"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/adminlte.min.html"></script>
+  
+</body>
+
+
+<!-- Mirrored from omits-himatika.com/dashboard/authentication/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Sep 2023 14:25:01 GMT -->
+</html>
